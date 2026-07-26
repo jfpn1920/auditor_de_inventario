@@ -1,9 +1,6 @@
 Algoritmo auditor_de_inventario
 	Definir opcion, totalProductos, i, j, idBuscar, siguienteID Como Entero
 	Definir encontrado Como Logico
-	//----------------------//
-	//--|datos_productos|--//
-	//----------------------//
 	Definir id Como Entero
 	Definir producto, codigo, categoria, marca Como Cadena
 	Definir cantidadRegistrada, cantidadEncontrada Como Entero
@@ -21,9 +18,6 @@ Algoritmo auditor_de_inventario
 	Dimension estado[100]
 	Dimension fechaAuditoria[100]
 	Dimension observacion[100]
-	//-------------------------//
-	//--|variables_estadisticas|--//
-	//-------------------------//
 	Definir totalCorrectos, totalFaltantes, totalSobrantes Como Entero
 	Definir totalBuenEstado, totalDaniados Como Entero
 	Definir cantidadTotalRegistrada, cantidadTotalEncontrada Como Entero
